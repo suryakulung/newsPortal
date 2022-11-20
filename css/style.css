@@ -29,7 +29,7 @@ a{
     object-fit: cover;
     object-position: center;
 }
-.text-front{
+.front-text{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -38,6 +38,7 @@ a{
     justify-content: center;
     align-items: flex-end;
     background: rgba(0, 0, 0,0.4);
+    padding-bottom: 20px;
 }
 .my-sticky{
     position: sticky;
@@ -61,7 +62,4 @@ a{
 .slick-active button{
     background: black !important;
     border: 4px solid red !important;
-}
-.slick-dots{
-    margin: -5px !important;
 }
