@@ -17,7 +17,9 @@ li {
 a {
     text-decoration: none;
 }
-
+a:hover{
+    color: tomato !important;
+}
 .bg-one {
     background: #0a58ca;
 }
@@ -26,11 +28,6 @@ a {
     background: #E5E7E9;
 }
 
-/* .container,
-.container-fluid {
-    padding: 0;
-} */
-
 .img {
     height: 100%;
     width: 100%;
@@ -38,39 +35,37 @@ a {
     object-position: center;
 }
 
-.front-text {
-    position: absolute;
-    top: 0;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: flex-end;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.3);
-    padding-bottom: 20px;
-}
-
 .my-sticky {
     position: sticky;
     top: 20px;
 }
 
-/* .slick-next{
-    right: 0 !important;
-    background: red !important;
+.front-text{
+position: absolute;
+top: 0;
+display: flex;
+height: 100%;
+width: 100%;
+align-items: flex-end;
+justify-content: center;
+background: rgba(0, 0, 0, 0.3);
+padding-bottom: 20px;
 }
 .slick-prev{
     background: red !important;
     left: 0 !important;
     z-index: 1;
 }
-.slick-dots button{
+.slick-next{
     background: red !important;
-    display: block !important;
+    right: 0 !important;
+}
+.slick-dots button{
+    background: #fff !important;
     border-radius: 50%;
-    border: 4px solid black !important;
+    border: 4px solid #000 !important;
 }
 .slick-active button{
-    background: black !important;
     border: 4px solid red !important;
-} */
+    background: #000 !important;
+}
