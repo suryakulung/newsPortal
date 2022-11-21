@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 a:hover{
-    color: tomato !important;
+    color: orange !important;
 }
 .bg-one {
     background: #0a58ca;
