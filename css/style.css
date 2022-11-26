@@ -72,9 +72,14 @@ padding-bottom: 20px;
 
 .pradesh-a{
     background: #AED6F1;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     text-align: center;
     border-radius: 50%;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pradesh-a:hover{
+    background: #0a58ca;
 }
